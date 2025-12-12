@@ -15,4 +15,3 @@
 - Spot (Sobras de capacidade)
 - Hosts Dedicados (Serviço decidado a você)
 - Capacidade Reservada (Capacidade reservada sob demanda)
-
