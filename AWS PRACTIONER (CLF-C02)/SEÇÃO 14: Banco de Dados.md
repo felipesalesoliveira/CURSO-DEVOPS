@@ -35,15 +35,15 @@ RDS (Relational Database Service) é um serviço da AWS para rodar bancos de dad
 Em vez de instalar banco, configurar backup, patch, etc., a AWS faz isso pra você.
 &nbsp;
 # **AMAZON NEPTUNE**
- - extrair dados, transformar e carregar em outro lugar.
-O Amazon Neptune é um banco de dados de grafos totalmente gerenciado pela AWS.
-Ele é feito para armazenar relacionamentos complexos entre dados.
-O foco não é só o dado, mas como os dados se conectam.
+ - extrair dados, transformar e carregar em outro lugar
+ O Amazon Neptune é um banco de dados de grafos totalmente gerenciado pela AWS.
+ Ele é feito para armazenar relacionamentos complexos entre dados.
+ O foco não é só o dado, mas como os dados se conectam.
 &nbsp;
 # **AWS GLUE**
  - extrair dados, transformar e carregar em outro lugar.
  O AWS Glue é como um robô organizador de dados:
-Pega dados espalhados (S3, banco, logs, etc.)
-Entende a estrutura deles
-Organiza
-Deixa pronto para consulta (Athena, Redshift, etc.)
+ Pega dados espalhados (S3, banco, logs, etc.)
+ Entende a estrutura deles
+ Organiza
+ Deixa pronto para consulta (Athena, Redshift, etc.)
