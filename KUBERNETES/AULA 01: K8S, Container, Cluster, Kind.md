@@ -17,8 +17,7 @@
 - Ele não cria imagem, não faz build, não gerencia rede complexa.
 - Ex.: CRI-O, Runc, Containerd.
 &nbsp;
-🏗️ ANALOGIA SIMPLES (obra)
-
+# ANALOGIA SIMPLES (obra)
 Engine → Engenheiro + ferramentas (planeja, organiza)
 Runtime → Pedreiro (executa o trabalho pesado)
 Kernel → Terreno e leis físicas
@@ -28,3 +27,14 @@ Kernel → Terreno e leis físicas
 &nbsp;
 # **KUBERNETES**
 - Orquestrador de Containers. (Controlar, Gerenciar, Organizar)
+&nbsp;
+# **ARQUITETURA KUBERNETES**
+- Control Plane 
+    - Responsável por decidir, controlar e orquestrar
+    - (API Server, Etcd, Scheduler, Controller Manager)
+- Workers 
+    - Onde os containers rodam
+    - (Kubelet, Container Runtime, Kube-proxy)
+&nbsp;
+# **POD**
+- Menor unidade do Kubernetes
