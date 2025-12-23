@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: pod-exemplo-multi-node
+  name: pod-exemplo-multi-node
+spec:
+  containers:
+  - image: nginx
+    name: nginx-1
+    ports:
+      - containerPort: 80
+  - image: apache
+    name: httpd
+    ports: 
+      - containerPort: 8080
+    resources:
+     limits:
+       cpu: "0.5"
+       memory: "128Mi"
+     requests:
+       cpu: "0.3"
+       memory: "64Mi"
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
