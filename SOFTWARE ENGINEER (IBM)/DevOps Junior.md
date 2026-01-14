@@ -33,7 +33,7 @@ Controle de quem pode ler, escrever ou executar arquivos e diretórios.
 **Estude:**
 - `chmod`
 - `chown`
-- Permissões `rwx`
+- Permissões `rwx` (4-2-1)
 - Usuário, grupo e outros
 
 **Na prática:**
@@ -64,10 +64,18 @@ Gerenciamento de usuários e programas em execução no sistema.
 Comunicação entre sistemas e aplicações.
 
 **Estude:**
-- IP
-- Porta
-- DNS
+- IP (IP é o endereço de um computador na rede)
+- Porta (Porta é a “porta de entrada” de um serviço dentro de um IP)
+- DNS (DNS traduz nomes para IPs)
 - HTTP vs HTTPS
+    - HTTP (sem segurança)
+        - Porta padrão: 80
+        - Dados não criptografados
+        - Qualquer pessoa no caminho pode ler
+    - HTTPS (seguro)
+        - Porta padrão: 443
+        - Dados criptografados
+        - Usa TLS/SSL
 
 **Na prática:**
 - Entender por que uma aplicação não responde
@@ -80,9 +88,9 @@ Comunicação entre sistemas e aplicações.
 Distribuição e controle de tráfego de rede.
 
 **Estude:**
-- Load Balancer
-- Firewall
-- Security Groups
+- Load Balancer (distribui o tráfego entre vários servidores)
+- Firewall (controla quem pode entrar ou sair da rede)
+- Security Groups (é o firewall da AWS no nível da instância)
 
 **Na prática:**
 - Liberar portas corretamente
