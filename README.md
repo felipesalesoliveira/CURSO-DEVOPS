@@ -1,3 +1,3 @@
-# Anotações Cursos DevOps
-Repositório Curso DevOps Sales
+# Anotações Estudo DevOps
+Repositório Estudo DevOps Sales
 Anotações
