@@ -1,6 +1,8 @@
 # Implantar Arquitetura de VPC Escalável na AWS Cloud
 **AWS-Cloud**
 
+![Arquitetura da VPC](DevOps-Project-02/arquitetura.png)
+
 ---
 
 ## SUMÁRIO
