@@ -72,10 +72,6 @@ Opcionalmente, poderia ser implementado um **Ingress Controller** para roteament
 
 ## Etapa 1: Criar um cluster EKS
 
-*Alt text*
-
-*Alt text*
-
 ---
 
 ## Etapa 2: Criar roles IAM
@@ -112,8 +108,6 @@ Aguarde até que o cluster apareça como **Active**.
 ---
 
 ## Etapa 3: Adicionar Node Groups ao cluster
-
-*Alt text*
 
 Adicionar os **worker nodes**, onde os pods irão rodar.
 
@@ -247,13 +241,4 @@ Acesse o **Console EC2**, copie o **DNS do ELB** e cole na barra de endereços d
 
 O jogo **2048** será exibido e estará jogável 🎮
 (Aguarde de **2 a 3 minutos** para que o setup seja concluído.)
-
-*Alt text*
-
----
-
-## 🛠️ Autor & Comunidade
-
-Este projeto foi criado por **Harshhaa** 💡
-Feedbacks são muito bem-vindos! Sinta-se à vontade para compartilhar suas opiniões.
 
