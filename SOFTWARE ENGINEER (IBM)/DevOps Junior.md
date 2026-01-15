@@ -298,8 +298,3 @@ Habilidades comportamentais no dia a dia.
 - Criar documentação simples
 
 ---
-
-## Próximos Passos
-- Estudar cada tópico com prática
-- Criar projetos próprios
-- Evoluir de DevOps Júnior para Pleno de forma consistente
