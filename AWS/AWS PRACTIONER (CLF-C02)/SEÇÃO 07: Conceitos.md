@@ -12,13 +12,13 @@
     - Servidores
     - Virtual Machine
     - Storage
-- SAAS (Software as Service)
-    - Gmail
-    - Dropbox
 - PAAS (Plataform as a Service)
     - Hospedagem
     - Sistema Operacional
-    - Banco de dados
+    - Banco de dados    
+- SAAS (Software as Service)
+    - Gmail
+    - Dropbox
 &nbsp;
 # **PRIVACIDADE DE CLOUD**
 - Público: AWS, GOOGLE CLOUD, AZURE (utilizam ambiente público)
